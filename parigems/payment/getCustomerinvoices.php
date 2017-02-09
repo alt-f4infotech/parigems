@@ -1,0 +1,36 @@
+<?php
+ob_start();
+error_reporting(0);
+session_start();
+include "../common/config.php";;
+$partycode=$_GET['partyid'];
+$getpartyid="select * from saleinvoice where status='1' and userid='$partycode'";
+$partyres=mysqli_query($con,$getpartyid);
+?>
+<label>Invoice List:</label><br>
+ <select name="invoiceno"  class="form-control" required>
+   <option value="">Select Invoice</option>
+ <?php
+while($p=mysqli_fetch_assoc($partyres)){
+   $invoicenumber=$p['invoiceno'];
+   $id=$p['invoiceno'];
+   $invoicetotal=$p['finaltotal'];
+   $validateinvoice="select SUM(amount) as amount from payment_receipt where invoiceno='$id' and status='1'";
+   $receiptres=mysqli_query($con,$validateinvoice);
+   $row=mysqli_fetch_assoc($receiptres);
+   if($row['amount'] == NULL )
+   {
+   $paidamount=0;    
+   }
+   else
+   {    
+   $paidamount=$row['amount'];
+   }
+   if($paidamount < $invoicetotal){
+    $balance=$invoicetotal-$paidamount;
+      echo '<option value="'.$id.'">'.$invoicenumber.'('.$balance.')</option>';
+   }
+}
+?>
+  </select>
+</div>

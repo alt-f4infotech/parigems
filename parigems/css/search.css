@@ -1,0 +1,363 @@
+*{
+	outline: none;
+}
+
+button{
+	font-size: 12px !important;
+	height: 34px;
+}
+
+.form-horizontal label.control-label{
+	font-weight: normal;
+}
+
+.lab .cert-btn {
+    width: 100%;
+    background: #efefef;
+    border: 2px solid #b1b1b1;
+    /*height: 33px;
+    padding: 0;*/
+}
+
+/*.lab .cert-btn:hover, .lab .cert-btn:focus{
+	background: #fff;
+	border: 1px solid #3255A0;
+}*/
+
+.lab .cert-btn.active {
+    border: 2px solid #3255A0;
+    box-shadow: none;
+    background: #fff;
+    
+}
+
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn.focus:active, .btn:active:focus, .btn:focus {
+	outline: none;
+}
+
+.lab .btn img.cert-img {
+    height: 22px;
+    margin: 0 auto;
+}
+
+.width100{
+	width: 100%;
+}
+
+.text-left {
+    text-align: left !important;
+}
+
+.shape ul.list-shape{
+	padding: 0;
+	margin: 0;
+}
+
+.shape ul.list-shape li{
+	float: left;
+	list-style: none;
+	margin: 7.5px;
+}
+
+/*.shape ul.list-shape li:first-child{
+	margin-left: 0;
+}*/
+
+.shape ul.list-shape li:last-child{
+	margin-right: 0;
+}
+
+.shape ul.list-shape li .allbtn{
+	width: 67px;
+	border: 1px solid #ADADAD;
+    border-radius: 8px;
+     box-shadow: 0px 1px 40px #999 inset; 
+    vertical-align: top; 
+}
+
+
+.fixed-table-container tbody .selected td {
+
+    color: #000 !important;
+}
+.shape label {
+    background: none;
+    border: none;
+    height: 72px;
+    padding: 9px 0;
+    width: 100%;
+    /*box-shadow: 0 0 20px #999 inset;*/
+    border-radius: 7px;
+    color: #6e6e6e;
+    text-align: center;
+    outline: none;
+    margin: 0;
+}
+
+ .shape label.active {
+    box-shadow: none;
+    border: 0px solid #64B5F6;
+    /*box-shadow: 0 0 10px #3255A0;*/
+    outline: none;
+    background: #337ab7;
+    color: #fff;
+}
+.shape label:hover,{
+	box-shadow: none;
+    border: 0px solid #64B5F6;
+    /*box-shadow: 0 0 10px #3255A0;*/
+    outline: none;
+    background: #64B5F6 !important;
+}
+
+.shape .font25{
+	font-size: 25px;
+}
+
+.shape small{
+	font-size: 9px;
+	text-transform: uppercase;
+}
+
+.shape .all{
+	position: relative;
+	top: 2px;
+}
+
+.shape label .bg-img1{
+	background: url('../images/shape/1.png') no-repeat left top;
+	height: 42px;
+	margin: 0 auto;
+	width: 42px;
+}
+
+/*.shape label:hover .bg-img1, .shape label:focus .bg-img1{
+	background: url('../images/shape/1-1.png') no-repeat left top;
+}*/
+
+.shape label .bg-img2{
+	background: url('../images/shape/2.png') no-repeat left top;
+	height: 42px;
+	margin: 0 auto;
+	width: 42px;
+}
+
+/*.shape button:hover .bg-img2, .shape button:focus .bg-img2{
+	background: url('../images/shape/2-1.png') no-repeat left top;
+}*/
+
+.shape label .bg-img3{
+	background: url('../images/shape/3.png') no-repeat left top;
+	height: 42px;
+	margin: 0 auto;
+	width: 42px;
+}
+
+/*.shape label:hover .bg-img3, .shape label:focus .bg-img3{
+	background: url('../images/shape/3-1.png') no-repeat left top;
+}
+*/
+.shape label .bg-img4{
+	background: url('../images/shape/4.png') no-repeat left top;
+	height: 42px;
+	margin: 0 auto;
+	width: 42px;
+}
+
+/*.shape label:hover .bg-img4, .shape label:focus .bg-img4{
+	background: url('../images/shape/4-1.png') no-repeat left top;
+}*/
+
+.shape label .bg-img5{
+	background: url('../images/shape/5.png') no-repeat left top;
+	height: 42px;
+	margin: 0 auto;
+	width: 42px;
+}
+
+/*.shape label:hover .bg-img5, .shape label:focus .bg-img5{
+	background: url('../images/shape/5-1.png') no-repeat left top;
+}*/
+
+.shape label .bg-img6{
+	background: url('../images/shape/6.png') no-repeat left top;
+	height: 42px;
+	margin: 0 auto;
+	width: 42px;
+}
+
+/*.shape label:hover .bg-img6, .shape label:focus .bg-img6{
+	background: url('../images/shape/6-1.png') no-repeat left top;
+}*/
+
+.shape label .bg-img7{
+	background: url('../images/shape/7.png') no-repeat left top;
+	height: 42px;
+	margin: 0 auto;
+	width: 42px;
+}
+
+/*.shape label:hover .bg-img7, .shape label:focus .bg-img7{
+	background: url('../images/shape/7-1.png') no-repeat left top;
+}*/
+
+.shape label .bg-img8{
+	background: url('../images/shape/8.png') no-repeat left top;
+	height: 42px;
+	margin: 0 auto;
+	width: 42px;
+}
+
+/*.shape label:hover .bg-img8, .shape label:focus .bg-img8{
+	background: url('../images/shape/8-1.png') no-repeat left top;
+}*/
+
+.shape label .bg-img9{
+	background: url('../images/shape/9.png') no-repeat left top;
+	height: 42px;
+	margin: 0 auto;
+	width: 42px;
+}
+
+/*.shape label:hover .bg-img9, .shape label:focus .bg-img9{
+	background: url('../images/shape/9-1.png') no-repeat left top;
+}*/
+
+.shape label .bg-img10{
+	background: url('../images/shape/10.png') no-repeat left top;
+	height: 42px;
+	margin: 0 auto;
+	width: 42px;
+}
+/*
+.shape label:hover .bg-img10, .shape label:focus .bg-img10{
+	background: url('../images/shape/10-1.png') no-repeat left top;
+}*/
+
+.shape label .bg-img11{
+	background: url('../images/shape/11.png') no-repeat left top;
+	height: 42px;
+	margin: 0 auto;
+	width: 42px;
+}
+
+/*.shape label:hover .bg-img11, .shape label:focus .bg-img11{
+	background: url('../images/shape/11-1.png') no-repeat left top;
+}*/
+
+.shape label .bg-img12{
+	background: url('../images/shape/12.png') no-repeat left top;
+	height: 42px;
+	margin: 0 auto;
+	width: 42px;
+}
+
+/*.shape label:hover .bg-img12, .shape label:focus .bg-img12{
+	background: url('../images/shape/12-1.png') no-repeat left top;
+}
+*/
+.shape label .bg-img13{
+	background: url('../images/shape/13.png') no-repeat left top;
+	height: 42px;
+	margin: 0 auto;
+	width: 42px;
+}
+
+/*.shape label:hover .bg-img13, .shape label:focus .bg-img13{
+	background: url('../images/shape/13-1.png') no-repeat left top;
+}
+*/
+.displayinlineblock{
+	display: inline-block;
+}
+
+.width20{
+	width: 20%;
+}
+
+.push-btn {
+    background: #eee;
+    border: 1px solid #ccc;
+    padding: 1px 12px 0;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-style: normal;
+    outline: none;
+}
+
+ .push-btn:hover {
+    background: #add5f9;
+    color: #fff;
+}
+.push-btn.active
+{
+  color: white;
+        background: #3b5998;	
+}
+.shape-btn.active, .shape-btn:hover {
+    
+    color: white2;
+        background: #c3c3c3;
+}
+.allbtn:hover{
+	color: #fff;
+        background: #add5f9;
+}
+.width50{
+	width: 49%;
+}
+
+.panel-default, .blue-border{
+	border: 1px solid #3D61AC;
+}
+
+.padding10{
+	padding: 10px;
+}
+
+.panel-default > .panel-heading {
+    color: #fff;
+    background-color: #64B5F6;
+    border-color: #64B5F6;
+}
+
+.panel-body{
+	background-color: #fff;
+	color: #000;
+}
+
+.control-label-text-left{
+	text-align: left !important;
+}
+
+.margin-bottom15{
+	margin: 0 0 15px;
+}
+
+.disablediv {
+    pointer-events: none;
+    opacity: 0.4;
+}
+
+.set-height{
+	height: 150px;
+	overflow-y: auto; 
+}
+
+.tdwidth{
+	width:20px;
+}
+
+.extrarow{
+	font-size: 50px !important;
+	font-weight: bold !important; 
+}
+
+.table-bg{
+		background-color:#D3D3D3 !important;
+	}
+	
+	.table-condensed>thead>tr>th, .table-condensed>tbody>tr>th, .table-condensed>tfoot>tr>th, .table-condensed>thead>tr>td, .table-condensed>tbody>tr>td, .table-condensed>tfoot>tr>td{
+    padding: 1px !important;
+	font-size: 7px !important;

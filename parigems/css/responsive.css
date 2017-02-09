@@ -1,0 +1,827 @@
+/*@media only screen and (min-width: 533px){*/
+  /*   .searchimg{*/
+    /*    width: 36%;*/
+    /*   }*/
+    /*.searchtext {*/
+      /*    font-size: 42px;*/
+      /*    left: 34%;*/
+      /*}*/
+      /*.navbar-toggle{*/
+        /*    margin-top: 18px;*/
+        /*}*/
+        /*   */
+        /*}*/
+        @media only screen and (min-width: 1024px) and (max-width:1200px) {
+          .list-top
+    {
+      padding: 2px !important;
+    }
+         .searchtext
+         {
+          font-size: 28px;
+          left: 36%;
+        }
+        .pairtext{
+          font-size: 28px;
+          width: 180px;
+          left: 37%;
+        }
+        .wishlisttext{
+          left: 47%;
+          
+        }
+        .layout{
+          margin-top: 10px;
+        }
+      }
+/*@media only screen and (min-width: 1360px) and (max-width:1590px) {
+  .viewprofile{
+    height: 500px;
+  }
+  .viewprofileimg{
+      position: relative;
+      top: 30%;
+  }
+
+  .searchdiamond,.wishlist{
+      height: 230px;
+  }
+  .searchtext
+   {
+    font-size: 38px;
+    left: 36%;
+   }
+
+  .pairtext{
+    font-size: 38px;
+    width: 280px;
+    left: 37%;
+  }
+  .wishlisttext,.orderhistory{
+    font-size: 38px;
+    left: 47%;
+  }
+  .navbar{
+    min-height: 80px !important;
+  }
+  .navbrandlogo{
+    width: 220px !important;
+  }
+  .nav{
+    font-size: 28px;
+    margin-top: 15px;
+  }
+  footer{
+    height: 80px;
+    font-size: 22px;
+  }
+  }*/
+  @media only screen and (min-width: 1600px) and (max-width:1900px) {
+    .viewprofile{
+      height: 600px;
+    }
+    .viewprofileimg{
+      position: relative;
+      top: 30%;
+    }
+
+    .searchdiamond,.wishlist{
+      height: 280px;
+    }
+    .searchtext
+    {
+      font-size: 38px;
+      left: 36%;
+    }
+
+    .pairtext{
+      font-size: 38px;
+      width: 380px;
+      left: 37%;
+    }
+    .wishlisttext,.orderhistory{
+      font-size: 38px;
+      left: 47%;
+      
+    }
+    .navbar{
+      min-height: 80px !important;
+    }
+    .navbrandlogo{
+      width: 250px !important;
+    }
+    .nav{    
+      font-size: 18px;
+      /*margin-top: 15px;*/
+    }
+    footer{
+      height: 80px;
+      font-size: 28px;
+    }
+    
+  }
+  @media only screen and (min-width: 1920px) {
+    .viewprofile{
+      height: 800px;
+    }
+
+    .viewprofileimg{
+      position: relative;
+      top: 30%;
+    }
+
+    .searchdiamond{
+      height: 380px;
+    }
+
+    .searchtext{
+      font-size: 58px;
+      left: 36%;
+    }
+
+    .wishlist{
+      height: 390px;
+    }
+
+    .pairtext{
+      font-size: 58px;
+      width: 380px;
+      left: 37%;
+    }
+    
+    .wishlisttext,.orderhistory{
+      font-size: 58px;
+      left: 47%;
+    }
+    
+    .navbar{
+      min-height: 89px !important;
+    }
+    
+    .navbrandlogo{
+      width: 320px !important;
+    }
+    
+    .nav{
+      font-size: 22px;
+      /*margin-top: 35px;*/
+      margin: 8px 0;
+    }
+    
+    footer{
+      /*height: 80px;*/
+      font-size: 28px;
+      padding: 15px 0;
+    }
+
+    .main-section {
+      margin: 13% 0 5%;
+    }
+  }
+
+  @media (min-width: 768px){
+    .max-width700{
+      max-width: 700px;
+      margin: 0 auto;
+    }
+  }
+
+  @media (max-width: 1024px){
+  /*.layout2 ul.dashboard-ul li{
+    height: 26.64%;
+    width: 15.39%;
+  }
+  */
+  p.margin0.pull-left {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 1259px){
+  .nav > li > a{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 1240px){
+  .list-top p{
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 1199px){
+  .nav > li > a{
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+
+  .list-bottom p, .list-top p{
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 1100px){
+  .list-top, .list-bottom span{
+    /*display: none;*/
+  }
+
+  .list-bottom p{
+    float: none !important;
+    text-align: center;
+  }
+
+  .navbrandlogo {
+    width: 220px;
+  }
+}
+
+@media (max-width: 1069px){
+  .navbrandlogo {
+    width: 200px;
+  }
+}
+
+@media (max-width: 1060px){
+  .nav > li > a, .dropdown-menu > li > a{
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 991px){
+  body, .form-control{
+    font-size: 12px;
+  }
+
+  .navbar-brand{
+    float: none;    
+    display: block;
+  }
+
+  .navbar-brand img{
+    margin: 0 auto;
+  }
+
+  .navbar-header, .navbar-right{
+    float: none !important;
+  }
+
+  .nav > li > a{
+    padding: 10px 18px;
+  }
+
+  ul.main-ul, .layout2 ul.dashboard-ul{
+    padding: 0;
+  }
+
+  .jcarousel-control-prev, .jcarousel-control-next{
+    display: none;
+    opacity: 0;
+  }
+
+  .layout2 ul.dashboard-ul li{
+    width: 22.5%;
+  }
+
+  .tablets_mobile{
+    display: none;
+  }
+
+  .main-section2{
+    margin-top: 135px;
+  }
+
+  ul.main-ul li {
+    margin: 0 auto;
+  }
+
+  .layout2 ul.dashboard-ul li.yellow .list-bottom{
+    padding: 5px 0;
+  }
+
+  .layout2{
+   /* background-image: url("../images/background2-tab.jpg");*/
+    background-size: cover;  
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 978px){
+  .nav > li > a{
+    padding: 10px 16px;
+  }
+}
+
+@media (max-width: 941px){
+  .nav > li > a{
+    padding: 10px 15px;
+  }
+}
+
+@media (max-width: 905px){
+  .nav > li > a{
+    padding: 10px 12px;
+  }
+}
+
+@media (max-width: 869px){
+  .nav > li > a{
+    padding: 10px 10px;
+  }
+}
+
+@media (max-width: 824px){
+  .nav > li > a{
+    padding: 10px 8px;
+  }
+}
+
+@media (max-width: 788px){
+  .nav > li > a{
+    padding: 10px 8px;
+  }
+}
+
+@media (max-width: 767px){
+  .main-section2{
+    margin-top: 90px;
+  }
+
+  .navbar-brand{
+    float: left;    
+    display: block;
+  }
+
+  .navbar-brand img{
+    margin: 0 auto;
+  }
+
+  .navbar-toggle{
+    margin-top: 18px;
+  }
+
+  .icon-bar{
+    background-color: #000;
+  }
+
+  .navbrandlogo {
+    width: 200px;
+  }
+
+  .layout2 ul.dashboard-ul li {
+    width: 30.5%;
+  }
+
+  .nav > li > a{
+    padding: 5px 15px;
+  }
+
+  footer p{
+    font-size: 12px;
+    text-align: center !important;
+  }
+
+  .symbol-ul li{
+    width: 50%;
+  }
+}
+
+@media (max-width: 530px){
+  .layout2 ul.dashboard-ul li {
+    width: 47.5%;
+  }
+}
+
+@media (max-width: 400px){
+  .layout2 ul.dashboard-ul li {
+    width: 100%;
+    margin: 10px 0;
+    float: none;
+  }
+
+}
+
+@media (max-width: 373px){
+  .symbol-ul li{
+    float: none;
+    width: 100%;
+  }
+}
+
+
+/*Rsponsive file Starts*/
+@media only screen and (max-width:414px){
+ .arrow_hide
+    {
+      display: none;
+    }
+	.nav .open>a
+	{
+		background-color: transparent;
+
+	}
+	.notify
+	{
+		margin-top: 14px;
+	}
+  .btn
+  {
+    margin-bottom: 3px;
+  }
+  .margint_responsive
+  {
+    margin-top:-21px !important;
+  }
+  .shape label
+  {
+    height: 65px !important;
+  }
+  .shape ul.list-shape li .allbtn {
+    width: 66px !important; 
+  }
+  .shape small
+  {
+    font-size: 7px !important;
+  }
+  .shape ul.list-shape li 
+  {
+    margin: 4.5px !important;
+  }
+  .table_mt
+  {
+   margin-top: 42% !important;
+
+ }
+ .product_history
+ {
+  overflow: auto !important;
+  width: 100% !important;
+}
+.logo_center
+{
+  float: none !important;
+}
+.add_debit_btn
+
+{
+  margin-top:-13% !important;
+  margin-left:24% !important;
+}
+.add_cash_btn
+{
+
+  margin-top: -14% !important;
+  margin-left: 64% !important;
+}
+.angadia_deposit_btn
+{
+  margin-top: -18% !important;
+  margin-left: 1% !important;
+}
+.angadia_expenses_btn
+{
+ margin-top: -9% !important;
+ margin-left: 31% !important;
+}
+.angadia_cash_btn
+{
+  margin-top: -9% !important;
+  margin-left: 62% !important;
+}
+.view_user_detail_modal
+{
+  margin-left: 0px !important;
+}
+.view_user_detail
+{
+  width: 100% !important;
+}
+.view_all_diamond
+{
+  white-space: normal !important;
+}
+ .margin_dropdown
+ {
+  margin-right: 16px !important;
+  margin-left: 16px !important;
+ }
+ .search_modal
+ {
+      width: 387px !important;
+    margin-left: -23px !important;
+ }
+}/*441 responsive*/
+
+@media only screen and (max-width:375px){
+  .shape ul.list-shape li 
+  {
+    margin: 3.5px !important;
+  }
+  .table_mt
+  {
+    margin-top: 45% !important;
+    margin-bottom: -17%;
+  }
+  .add_debit_btn {
+    margin-top: -15% !important;
+    margin-left: 24% !important;
+  }
+  .add_cash_btn {
+    margin-top: -16% !important;
+    margin-left: 68% !important;
+  }
+  .current_cash_in_hand
+  {
+    width: 24% !important;
+  }
+  .angadia_deposit_btn
+  {
+    margin-top: -21% !important;
+    margin-left: -3% !important;
+  }
+  .angadia_expenses_btn
+  {
+    margin-top: -10% !important;
+    margin-left: 30% !important;
+  }
+  .angadia_cash_btn
+  {
+    margin-top: -10.4% !important;
+    margin-left: 63% !important;
+  }
+  .search_modal
+  {
+    width: 374px !important;
+    margin-left: -17px !important;
+
+  }
+  }/*375 responsive*/
+
+  @media only screen and (max-width:360px){
+    .shape ul.list-shape li 
+    {
+      margin: 2.5px !important;
+    }
+    .table_mt
+    {
+     margin-top: 58% !important;
+     margin-bottom: -33% !important;
+   }
+   .register_top
+   {
+    margin-top: 46px !important;
+  }
+  .add_cash_btn {
+   margin-top: -16.7% !important;
+   margin-left: 70% !important;
+ }
+ .current_cash_in_hand
+ {
+  width: 22% !important;
+}
+.add_debit_btn {
+  margin-top: -15% !important;
+  margin-left: 24% !important;
+}
+.angadia_deposit_btn
+{
+ margin-top: -21% !important;
+ margin-left: -4% !important;
+}
+.angadia_expenses_btn
+{
+ margin-top: -11% !important;
+ margin-left: 30% !important;
+}
+.angadia_cash_btn
+{
+  margin-top: -11% !important;
+  margin-left: 66% !important;
+}
+.angadia_deposit_btn
+{
+ margin-top: -21% !important;
+ margin-left: -4% !important;
+}
+.angadia_expenses_btn
+{
+ margin-top: -11% !important;
+ margin-left: 30% !important;
+}
+.angadia_cash_btn
+{
+  margin-top: -11% !important;
+  margin-left: 66% !important;
+}
+  .search_modal
+  {
+    width: 374px !important;
+    margin-left: -20px !important;
+
+  }
+}/*360 responsive*/
+
+
+@media only screen and (max-width:320px){
+  .table_mt
+  {
+   margin-top: 65% !important;
+   margin-bottom: -65% !important;
+
+ }
+ }/*320 responsive*/
+
+
+ @media only screen and (min-width:480px)  and (max-width:1024px){
+   .arrow_hide
+    {
+      display: none;
+    }
+   .shape label
+   {
+    height: 65px !important;
+  }
+  .reset_mb
+  {
+    margin-bottom: 3px;
+  }
+  #newsearch
+  {
+    margin-top: 3px;
+  }
+  .table_mt
+  {
+    margin-top: 9% !important;
+    margin-bottom: 0% !important;
+  }
+  .add_debit_btn
+  {
+    margin-top: -5% !important;
+    margin-left: 70% !important;
+  }
+  .add_cash_btn
+  {
+    margin-top: -5.3% !important;
+    margin-left: 88% !important;
+  }
+  }/*1024 responsive*/
+  
+  @media only screen and (min-width:480px) and (max-width: 800px) {
+     .arrow_hide
+    {
+      display: none;
+    }
+    .table_mt
+    {
+     
+      margin-top:12% !important;
+      margin-bottom: -20% !important;
+    }
+    .margint_responsive
+    {
+      margin-top: -20px !important;
+    }
+    #fixed
+    {
+      top: 93px !important;
+    }
+    .dropdown-menu>li>a
+    {
+      padding: 1px 20px !important;
+    }
+    .dropdown-menu
+    {
+      padding: 1px 0px;
+    }
+    .main-section2{
+      margin-top: 105px !important;
+    }
+
+    .crumb_top
+    {
+      margin-top: 111px;
+    }
+    .add_debit_btn
+
+    {
+      margin-top:-5% !important;
+      margin-left:65% !important;
+    }
+    .add_cash_btn
+    {
+
+      margin-top: -6.5% !important;
+      margin-left: 87% !important;
+    }
+    .entry_btn_responsive
+    {
+      margin-top: 10px !important;
+    }
+    .angadia_deposit_btn
+    {
+      margin-top: -10% !important;
+      margin-left: 49% !important
+    }
+    .angadia_expenses_btn
+    {
+      margin-top: -10% !important;
+      margin-left: 65% !important;
+    }
+    .angadia_cash_btn
+    {
+      margin-top: -10% !important;
+      margin-left: 81% !important;
+    }
+    .view_user_detail_modal
+    {
+      margin-left: 0px !important;
+    }
+    .view_user_detail
+    {
+      width: 100% !important;
+    }
+    .panel_top
+    {
+      margin-top: 20px !important;
+    }
+    .seach_modal
+    {
+
+    width: 778px !important;
+    margin-left: -96px !important;
+
+    }
+    
+ .user_single
+    {
+      right: -32px !important; 
+    }.
+    }/*800 responsive*/
+    @media only screen and (min-width:801px) and (max-width:960px){
+       .arrow_hide
+    {
+      display: none;
+    }
+      .margint_responsive
+      {
+        margin-top: -20px !important;
+      }
+
+      #fixed
+      {
+        top: 85px !important;
+      }
+/*.table_mt
+{
+	 margin-top: 10% !important;
+    margin-bottom: -2% !important;
+    }*/
+    .product_history
+    {
+      overflow: auto !important;
+      width: 100% !important;
+    }
+
+    .crumb_top
+    {
+      margin-top: 115px;
+    }
+    .add_debit_btn
+
+    {
+      margin-top: -8% !important;
+      margin-left: 64% !important;
+    }
+    .add_cash_btn
+    {
+
+      margin-top: -6.8% !important;
+      margin-left: 84% !important;
+    }
+
+    .angadia_deposit_btn
+    {
+      margin-top: -10% !important;
+      margin-left: 49% !important
+    }
+    .angadia_expenses_btn
+    {
+      margin-top: -10% !important;
+      margin-left: 65% !important;
+    }
+    .angadia_cash_btn
+    {
+      margin-top: -10% !important;
+      margin-left: 81% !important;
+    }
+    }/*960 responsive*/
+    
+    @media only screen and (min-width:1290px) and (max-width:1366px){
+     .table-responsive
+     {
+      overflow-x: hidden !important;
+    }
+  }
+  /*Responsive file ends*/
+
